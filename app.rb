@@ -10,6 +10,7 @@ class App < Sinatra::Base
   post '/food_form' do
     @name = params[:user_name]
     @food = params[:favorite_food]
-    erb
+    
+    #response here
   end
 end
